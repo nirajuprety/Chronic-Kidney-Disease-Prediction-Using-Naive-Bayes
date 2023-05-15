@@ -1,0 +1,12 @@
+Naive Bayes is a probabilistic model, which means that it estimates the probability of each class (e.g., the probability that a patient has a certain disease). This can be useful for ranking the classes by their likelihood, or for making probabilistic predictions (e.g., there is a 75% chance that the patient has the disease). Other prediction methods, such as decision trees, do not output probabilities.
+
+Naive Bayes is based on the assumption of independence between features. This means that it assumes that the presence or absence of a particular feature does not depend on the presence or absence of any other feature. This simplifies the calculation of the likelihoods, but it also means that the model may not perform as well on datasets where the features are correlated.
+
+Naive Bayes is relatively simple and fast to train, especially when compared to more complex models like neural networks. It is also relatively easy to implement, which makes it a popular choice for quick-and-dirty predictions.
+
+Naive Bayes is a good baseline model that can be used as a comparison point for more complex models. It is often used in combination with more powerful models to improve the overall performance of a prediction system.
+
+Naive Bayes performs well on datasets with small to medium-sized feature sets and relatively large number of samples. It may not perform as well on datasets with very large feature sets or very small number of samples.
+
+
+

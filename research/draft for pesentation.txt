@@ -1,0 +1,94 @@
+Some studies have been made on disease prediction and other related to health prediction system.
+
+Accurate disease prediction at an early stage is important for improving patient care and outcomes. Data mining can be a useful tool in predicting diseases by uncovering patterns and relationships in large amounts of medical data. This project uses the K-Nearest Neighbor (KNN) and Convolutional Neural Network (CNN) machine learning algorithms to predict diseases based on symptoms and other patient information. The CNN algorithm is found to have a higher accuracy rate (84.5%) and requires less time and memory compared to the KNN algorithm. The system is also able to provide a risk assessment of the predicted disease.
+
+Machine learning algorithms, including the Random Forest algorithm, are being used to predict diseases such as heart disease with increasing accuracy. In this project, the Random Forest algorithm was applied to the Cleveland heart disease dataset and achieved an accuracy rate of 85.81%. The algorithm was trained on 303 instances of data and its accuracy was verified using 10-fold cross validation. The proposed algorithm has the potential to improve heart disease prediction and save lives in the future.
+
+Accurate disease prediction is a complex task that requires experience and knowledge. This research aims to use data mining techniques to predict diseases from patient data and determine the most accurate model for these predictions. The association rule mining and keyword-based clustering algorithms are used to extract relevant features and identify the specific disease that a patient is affected by. Both algorithms are efficient and have fast processing times.
+
+The healthcare industry generates a large amount of data that is not always fully analyzed to discover hidden information that could be useful in decision-making. This research has developed a prototype Intelligent Heart Disease Prediction System (IHDPS) that uses data mining techniques such as Decision Trees, Naive Bayes, and Neural Networks to predict the likelihood of patients getting a heart disease. The IHDPS system is able to answer complex "what if" queries and enable the discovery of patterns and relationships between medical factors related to heart disease. It is implemented on the .NET platform and has the potential to be web-based, user-friendly, scalable, reliable, and expandable.
+
+
+Gaussian Naive Bayes Classifier: It is a probabilistic machine learning algorithm that internally uses Bayes Theorem to classify the data points.
+
+
+Understanding Naive Bayes Classifier
+Lesson 14 of 33By Mayank Banoula
+
+Last updated on Oct 27, 2022226572
+Understanding Naive Bayes Classifier
+PreviousNext
+Table of Contents
+What is Naive Bayes?Understanding Naive Bayes and Machine Learning Where is Naive Bayes Used?Understanding Naive Bayes Classifier Advantages of Naive Bayes Classifier View More
+Have you ever wondered how your email provider implements spam filtering? Or how online news channels perform news text classification? Or how companies perform sentiment analysis of their audience on social media?
+
+With a machine learning algorithm called a Naive Bayes classifier, you can do all of these things. 
+
+Get an in-depth understanding of the Machine Learning algorithm with the AI and ML Course. Click to check out the course preview. 
+What is Naive Bayes?
+Let's start with a basic introduction to the Bayes theorem, named after Thomas Bayes from the 1700s. The Naive Bayes classifier works on the principle of conditional probability, as given by the Bayes theorem.
+
+Let us go through some of the simple concepts of probability that we will use. Consider the following example of tossing two coins. If we toss two coins and look at all the different possibilities, we have the sample space as:{HH, HT, TH, TT}
+
+While calculating the math on probability, we usually denote probability as P. Some of the probabilities in this event would be as follows:
+
+The probability of getting two heads = 1/4 
+The probability of at least one tail = 3/4 
+The probability of the second coin being head given the first coin is tail = 1/2 
+The probability of getting two heads given the first coin is a head = 1/2
+The Bayes theorem gives us the conditional probability of event A, given that event B has occurred. In this case, the first coin toss will be B and the second coin toss A. This could be confusing because we've reversed the order of them and go from B to A instead of A to B.
+
+PCP in AI and Machine Learning
+In Partnership with Purdue UniversityEXPLORE COURSEPCP in AI and Machine Learning
+According to Bayes theorem:
+
+Bayes
+
+Let us apply Bayes theorem to our coin example. Here, we have two coins, and the first two probabilities of getting two heads and at least one tail are computed directly from the sample space.
+
+Now in this sample space, let A be the event that the second coin is head, and B be the event that the first coin is tails. Again, we reversed it because we want to know what the second event is going to be. 
+
+We're going to focus on A, and we write that out as a probability of A given B:
+
+Probability = P(A|B)
+
+= [ P(B|A) * P(A) ] / P(B)
+
+= [ P(First coin being tail given the second coin is the head) * P(Second coin being
+
+head) ] / P(First coin being tail)
+
+= [ (1/2) * (1/2) ] / (1/2)
+
+= 1/2 = 0.5
+
+Bayes theorem calculates the conditional probability of the occurrence of an event based on prior knowledge of conditions that might be related to the event. 
+
+Like with any of our other machine learning tools, it's important to understand where the Naive Bayes fits in the hierarchy. 
+
+Understanding Naive Bayes and Machine Learning 
+
+Machine learning falls into two categories:
+Supervised learning 
+Unsupervised learning
+Supervised learning falls into two categories:
+Classification 
+Regression
+Naive Bayes algorithm falls under classification
+
+
+You can use Naive Bayes for the following things:
+
+Face Recognition
+As a classifier, it is used to identify the faces or its other features, like nose, mouth, eyes, etc.
+
+Weather Prediction 
+It can be used to predict if the weather will be good or bad.
+
+Medical Diagnosis 
+Doctors can diagnose patients by using the information that the classifier provides. Healthcare professionals can use Naive Bayes to indicate if a patient is at high risk for certain diseases and conditions, such as heart disease, cancer, and other ailments. 
+
+News Classification 
+With the help of a Naive Bayes classifier, Google News recognizes whether the news is political, world news, and so on. 
+
+As the Naive Bayes Classifier has so many applications, it’s worth learning more about how it works.

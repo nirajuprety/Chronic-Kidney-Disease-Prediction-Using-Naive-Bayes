@@ -1,0 +1,9 @@
+Online Disease Prediction 
+*********RESEARCH**************
+--------------------------------------------------------------------------------
+documetation related link
+https://www.geeksforgeeks.org/disease-prediction-using-machine-learning/
+----------------------------------------------------------------------------------
+Related Site:
+https://symptomate.com/
+
